@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{bfb35b58-b580-46c0-a990-6948849a3af0}">
+        <property name="assetPath">
+            <value>Technology Electronic TV Turn On Static Turn Off 01.wav</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>48</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>7.658666666666667</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{c7c5a7ca-6087-400c-b9c4-2dcc81017731}</destination>
+        </relationship>
+    </object>
+</objects>

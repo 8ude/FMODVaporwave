@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!241 &24100000
+AudioMixerController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: WalkingDemoMixer
+  m_OutputGroup: {fileID: 0}
+  m_MasterGroup: {fileID: 24300002}
+  m_Snapshots:
+  - {fileID: 24500006}
+  m_StartSnapshot: {fileID: 24500006}
+  m_SuspendThreshold: -80
+  m_EnableSuspend: 1
+  m_UpdateMode: 0
+  m_ExposedParameters: []
+  m_AudioMixerGroupViews:
+  - guids:
+    - 49fb94f3c8bf9430db62af2528559ded
+    name: View
+  m_CurrentViewIndex: 0
+  m_TargetSnapshot: {fileID: 24500006}
+--- !u!243 &24300002
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Master
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: 49fb94f3c8bf9430db62af2528559ded
+  m_Children: []
+  m_Volume: 36ce1d2c4df864c8982adead11babdbe
+  m_Pitch: be3d5c4bb7f424b1f99c1ab0091aa2f1
+  m_Effects:
+  - {fileID: 24400004}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
+--- !u!244 &24400004
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  m_EffectID: a8dbaac56cd204db78c42d6197a4dc12
+  m_EffectName: Attenuation
+  m_MixLevel: dca36d591ef694f0f815e3339b62d009
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!245 &24500006
+AudioMixerSnapshotController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Snapshot
+  m_AudioMixer: {fileID: 24100000}
+  m_SnapshotID: ae5c43efdf9a142a38dcb082bf18a17c
+  m_FloatValues:
+    9720d5d3e680945f58a0ffe170cf0bfa: 0
+    82d2beb46c8f449dc8a8c78c5f133ee6: 1
+    5dd2e445844a24d499bcba912fb581ae: 0
+    8e1ffcd69b9eb475d88cae7ee51a675d: 0
+    7e6641d7f4af64df9a3bd6e17831eba3: 1
+    eb0bdde8509524ddd9041425d7280da4: 0
+    b40e3749b383a471096155ebc707576c: 1
+    3e6fab693cea0470ab196981bad74a3c: 1
+    c693419b41b66424299502aff8ab7cfb: 0
+  m_TransitionOverrides: {}

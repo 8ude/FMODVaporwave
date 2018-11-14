@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{dced202b-c243-492e-ac6b-6be3ce361275}">
+        <property name="assetPath">
+            <value>vhs-tape_coltures_cc.wav</value>
+        </property>
+        <property name="isStreaming">
+            <value>true</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>48</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>28.893333333333334</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{c7c5a7ca-6087-400c-b9c4-2dcc81017731}</destination>
+        </relationship>
+    </object>
+</objects>

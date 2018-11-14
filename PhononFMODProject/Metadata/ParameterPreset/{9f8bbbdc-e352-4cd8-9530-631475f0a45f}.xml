@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="ParameterPreset" id="{9f8bbbdc-e352-4cd8-9530-631475f0a45f}">
+        <property name="name">
+            <value>TelevisionOff</value>
+        </property>
+        <relationship name="folder">
+            <destination>{7bf95011-16c3-486f-91be-0c4d6d731d88}</destination>
+        </relationship>
+        <relationship name="parameter">
+            <destination>{794ecb77-d516-4c22-b64d-e1f66836b532}</destination>
+        </relationship>
+    </object>
+    <object class="GameParameter" id="{794ecb77-d516-4c22-b64d-e1f66836b532}">
+        <property name="initialValue">
+            <value>0</value>
+        </property>
+    </object>
+</objects>
